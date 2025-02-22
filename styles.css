@@ -2,13 +2,13 @@ h1 {
     text-align: center;
 }
 
-main{margin-left: 15dvh;
-margin-right: 15dvh;}
+main{margin-left: 5dvh;
+margin-right: 5dvh;}
 
 
 .navbar ul {
     list-style-type: none;
-    background-color: hsl(0, 0%, 0%);
+    background-color: hsl(0, 61%, 35%);
     padding: 0;
     margin: 0;
     display: flex;  /* Makes navbar items appear in a row */
@@ -17,14 +17,14 @@ margin-right: 15dvh;}
 
 .navbar ul li {
     margin: 0;
-    padding: 10dvh 20dvh; /* Adds spacing between links */
+    padding: 1dvh 1dvh; /* Adds spacing between links */
 }
 
 .navbar a {
     color: gold;
     text-decoration: none;
     display: block;
-    padding: 10dvh 15dvh;  /* Reduced padding for better spacing */
+    padding: 2dvh 2dvh;  /* Reduced padding for better spacing */
     text-align: center;
     font-size: 1.2rem; /* Adjusts text size */
 }
@@ -32,7 +32,7 @@ margin-right: 15dvh;}
 .navbar a:hover {
     color: white; /* Changes color when hovered */
     background-color: rgba(255, 0, 0, 0.2); /* Adds a subtle hover effect */
-        border-radius: 12dvh;
+        border-radius: 12px;
 }
 
 h2{
@@ -40,14 +40,17 @@ h2{
 }
 p{
     text-align: center;
-    font-size: 20dvh;
+    font-size: 3dvh;
 }
 
 li{
     text-align: center;
-    font-size: 20dvh;
-    padding: 10dvh 20dvh; /* Adds spacing between links */
+    font-size: 3dvh;
+    padding: 1dvh 1dvh;
+}
 
+body{
+    font-family: "PT Sans";
 }
 
 body{
