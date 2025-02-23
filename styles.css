@@ -2,8 +2,18 @@ h1 {
     text-align: center;
 }
 
-main{margin-left: 5dvh;
-margin-right: 5dvh;}
+main{
+    margin-left: 5dvh;
+margin-right: 5dvh;
+}
+
+img{display:block;
+margin: auto;
+justify-content: center;
+border-radius: 20dvh;
+padding: 1dvh;
+background-color: hsl(0, 61%, 35%);
+}
 
 
 .navbar ul {
@@ -53,6 +63,6 @@ body{
     font-family: "PT Sans";
 }
 
-body{
-    font-family: "PT Sans";
+#skills{
+    margin-top: 5cm;
 }
