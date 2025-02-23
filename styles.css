@@ -1,4 +1,16 @@
+@font-face {
+    font-family: "bodyText";
+    src: url(fonts/Delius-Regular.ttf);
+}
+
+@font-face {
+    font-family: "headerText";
+    src: url(fonts/Sigmar-Regular.ttf);
+}
+
+
 h1 {
+    font-family: 'headerText', sans-serif;
     text-align: center;
 }
 
@@ -46,23 +58,31 @@ background-color: hsl(0, 61%, 35%);
 }
 
 h2{
+    font-family: 'headerText', sans-serif;
+
     text-align: center;
 }
 p{
+    font-family: 'bodyText', sans-serif;
     text-align: center;
     font-size: 3dvh;
 }
 
 li{
+    font-family: 'bodyText', sans-serif;
     text-align: center;
     font-size: 3dvh;
     padding: 1dvh 1dvh;
 }
 
-body{
-    font-family: "PT Sans";
-}
-
 #skills{
     margin-top: 5cm;
+}
+
+#About{
+    margin-top: 3cm;
+}
+
+#EXP{
+    margin-top: 3cm;
 }
