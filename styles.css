@@ -1,11 +1,11 @@
 @font-face {
     font-family: "bodyText";
-    src: url(Fonts/Delius-Regular.ttf);
+    src: url(fonts/Delius-Regular.ttf);
 }
 
 @font-face {
     font-family: "headerText";
-    src: url(Fonts/MarkaziText-VariableFont_wght.ttf);
+    src: url(fonts/MarkaziText-VariableFont_wght.ttf);
 }
 
 
